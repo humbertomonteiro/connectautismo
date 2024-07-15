@@ -21,7 +21,7 @@ export default function oportunidades() {
         data-delay="200"
       >
         <div className={styles.boxes}>
-          <div className={styles.firstBox}>
+          <div className={styles.firstBox} data-aos="zoom-in">
             <img src={ampliacao} alt="Ampliação de Conhecimento" />
             <h3>Ampliação de Conhecimento</h3>
             <p>
@@ -33,7 +33,7 @@ export default function oportunidades() {
               do autismo
             </p>
           </div>
-          <div className={styles.box}>
+          <div className={styles.box} data-aos="zoom-in">
             <img src={acesso} alt="Acesso a Recursos" />
             <h3>Acesso a Recursos</h3>
             <p>
@@ -45,7 +45,7 @@ export default function oportunidades() {
               apoio.
             </p>
           </div>
-          <div className={styles.box}>
+          <div className={styles.box} data-aos="zoom-in">
             <img src={desenvolvimento} alt="Desenvolvimento Profissional" />
             <h3>Desenvolvimento Profissional</h3>
             <p>
@@ -56,7 +56,7 @@ export default function oportunidades() {
               autismo. Aqui, a evolução profissional encontra a inovação.
             </p>
           </div>
-          <div className={styles.box}>
+          <div className={styles.box} data-aos="zoom-in">
             <img src={aprendizado} alt="Aprendizado Contínuo" />
             <h3>Aprendizado Contínuo</h3>
             <p>
@@ -69,8 +69,8 @@ export default function oportunidades() {
           </div>
         </div>
 
-        <div className={styles.boxes} data-aos="zoom-in">
-          <div className={styles.firstBox}>
+        <div className={styles.boxes}>
+          <div className={styles.firstBox} data-aos="zoom-in">
             <img src={trocaExperiencias} alt="Troca de Experiências" />
             <h3>Troca de Experiências</h3>
             <p>
@@ -82,7 +82,7 @@ export default function oportunidades() {
               campo do autismo.
             </p>
           </div>
-          <div className={styles.box}>
+          <div className={styles.box} data-aos="zoom-in">
             <img src={visibilidade} alt="Visibilidade e Reconhecimento" />
             <h3>Visibilidade e Reconhecimento</h3>
             <p>
@@ -93,7 +93,7 @@ export default function oportunidades() {
               mercado em crescimento.
             </p>
           </div>
-          <div className={styles.box}>
+          <div className={styles.box} data-aos="zoom-in">
             <img src={atualizacao} alt="Atualização Pessoal" />
             <h3>Atualização Pessoal</h3>
             <p>
@@ -104,7 +104,7 @@ export default function oportunidades() {
               participantes.
             </p>
           </div>
-          <div className={styles.box}>
+          <div className={styles.box} data-aos="zoom-in">
             <img src={acoesSociais} alt="Ações Sociais" />
             <h3>Ações Sociais</h3>
             <p>

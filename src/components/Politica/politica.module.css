@@ -3,6 +3,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  background-color: #00000075;
 }
 
 .title {
@@ -22,7 +23,7 @@
 .content {
   width: 1200px;
   max-width: 90%;
-  padding: 0 2rem;
+  padding: 0 1rem;
 }
 
 .content h3 {

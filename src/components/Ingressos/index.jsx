@@ -13,8 +13,8 @@ export default function Ingressos() {
       <div className={styles.img} data-aos="zoom-in">
         <img src={ingressos} alt="Ingressos" />
       </div>
-      <div className={styles.boxesTexts} data-aos="zoom-in">
-        <div className={styles.box}>
+      <div className={styles.boxesTexts}>
+        <div className={styles.box} data-aos="zoom-in">
           <h3>Ingresso Congresso Conecte Autismo 2024 Online - AO VIVO</h3>
           <ul>
             <li>Online AO VIVO: Apenas R$ 299,90</li>
@@ -46,7 +46,7 @@ export default function Ingressos() {
           </a>
         </div>
 
-        <div className={styles.box}>
+        <div className={styles.box} data-aos="zoom-in">
           <h3>Festa Pré Conet Autismo Praia do Futuro</h3>
           <ul>
             <li>Festa Pré Conect Autismo</li>

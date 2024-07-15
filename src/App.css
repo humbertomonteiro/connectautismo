@@ -28,8 +28,18 @@ img {
 }
 
 .area {
-  background: url("./assets/imgs/background/background.png") no-repeat top fixed;
+  /* background: url("./assets/imgs/background/background.png") no-repeat top fixed;
+  background-size: cover; */
+  background-image: linear-gradient(
+      to top,
+      rgba(28, 0, 74, 0.769),
+      rgba(28, 0, 74, 0.769)
+    ),
+    url("./assets/imgs/background/bg.jpg");
   background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: #37004a;
   position: fixed;
   top: 0;
   bottom: 0;
