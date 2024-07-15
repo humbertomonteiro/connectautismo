@@ -26,11 +26,13 @@ import Versa from "../../components/Versa";
 import RedesSociais from "../../components/RedesSociais";
 import Politica from "../../components/Politica";
 import Footer from "../../components/Footer";
+
 import Background from "../../components/Background";
 
 export default function Home() {
   return (
     <div className={styles.container} data-aos="fade-down">
+      <Background />
       <div className={styles.containerHome}>
         <div className={styles.logo}>
           <img src={logo} alt="logo" />
@@ -57,7 +59,6 @@ export default function Home() {
           </a>
         </div>
       </div>
-
       <Oportunidades />
       <Ingressos />
       <Social />
@@ -86,7 +87,6 @@ export default function Home() {
       <RedesSociais />
       <Politica />
       <Footer />
-      <Background />
     </div>
   );
 }
