@@ -27,12 +27,9 @@ import RedesSociais from "../../components/RedesSociais";
 import Politica from "../../components/Politica";
 import Footer from "../../components/Footer";
 
-import Background from "../../components/Background";
-
 export default function Home() {
   return (
     <div className={styles.container} data-aos="fade-down">
-      <Background />
       <div className={styles.containerHome}>
         <div className={styles.logo}>
           <img src={logo} alt="logo" />
