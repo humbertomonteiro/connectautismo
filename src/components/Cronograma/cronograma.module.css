@@ -1,0 +1,50 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.title {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 4rem 0;
+}
+
+.title h2 {
+  text-align: center;
+  font-size: 2rem;
+}
+
+.boxesImg {
+  width: 1200px;
+  max-width: 90%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  gap: 1rem;
+}
+
+.box {
+  width: 40%;
+}
+
+.box img {
+  width: 100%;
+}
+
+@media (max-width: 450px) {
+  .title {
+    margin: 2rem 0;
+  }
+
+  .title h2 {
+    font-size: 1.5rem;
+  }
+
+  .box {
+    width: 100%;
+  }
+}

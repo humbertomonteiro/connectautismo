@@ -1,0 +1,47 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.title {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 4rem 0;
+}
+
+.title h2 {
+  font-size: 2rem;
+  text-align: center;
+  padding: 0 2rem;
+}
+
+.content {
+  width: 1200px;
+  max-width: 90%;
+  padding: 0 2rem;
+}
+
+.content h3 {
+  font-size: 0.8rem;
+  margin: 1rem 0;
+}
+
+.content p {
+  font-size: 0.7rem;
+  margin-bottom: 0.5rem;
+  line-height: 150%;
+}
+
+@media (max-width: 450px) {
+  .title {
+    margin: 2rem 0;
+  }
+
+  .title h2 {
+    font-size: 1.5rem;
+  }
+}

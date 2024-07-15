@@ -1,0 +1,30 @@
+:root {
+  --color-text: #fff;
+  --color-text-gray: #9c9c9c;
+  --color-1: #5f476b;
+  --color-2: #61068c;
+  --color-3: #00a3ff;
+  --color-4: #cf40db;
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: sans-serif;
+}
+
+.main {
+  background: url("./assets/imgs/background/background.png") no-repeat top fixed;
+  background-size: cover;
+  color: var(--color-text);
+}
+
+a {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+img {
+  width: 100%;
+}
