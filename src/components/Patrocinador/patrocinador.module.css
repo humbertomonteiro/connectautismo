@@ -19,15 +19,15 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  max-width: 45%;
 }
 
 .box h3 {
   font-size: 1.7rem;
 }
 
-.box img {
-  width: 100%;
-  /* margin-top: 1rem;
-  border-radius: 1rem; */
+@media (max-width: 450px) {
+  .box {
+    width: 150px;
+    height: 150px;
+  }
 }

@@ -19,5 +19,11 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  max-width: 45%;
+}
+
+@media (max-width: 450px) {
+  .box {
+    width: 150px;
+    height: 150px;
+  }
 }

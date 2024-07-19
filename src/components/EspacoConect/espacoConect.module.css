@@ -19,7 +19,6 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  max-width: 45%;
 }
 
 .box h3 {
@@ -27,11 +26,11 @@
   text-align: center;
 }
 
-.box img {
-  margin-top: 1rem;
-}
-
 @media (max-width: 450px) {
+  .box {
+    width: 150px;
+    height: 190px;
+  }
   .box h3 {
     font-size: 1.1rem;
   }

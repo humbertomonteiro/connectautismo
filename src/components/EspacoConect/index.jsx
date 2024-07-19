@@ -12,6 +12,12 @@ export default function EspacoConect() {
       <div className={styles.boxes}>
         {arrayEspacoConnect.map((item, index) => (
           <div key={index} className={styles.box}>
+            {item.map((e) => (
+              <div>
+                <h3>{e.date}</h3>
+                <h3>{e.hora}</h3>
+              </div>
+            ))}
             <BoxSlider array={item} />
           </div>
         ))}
