@@ -3,13 +3,12 @@ import styles from "./local.module.css";
 import logo from "../../assets/imgs/logo/logoHorizontal.png";
 
 import { FaArrowRight } from "react-icons/fa";
+import Title from "../Title";
 
 export default function Local() {
   return (
     <div className={styles.container}>
-      <div className={styles.title} data-aos="zoom-in">
-        <h2>LOCAL</h2>
-      </div>
+      <Title text={"LOCAL"} />
       <div className={styles.boxes} data-aos="zoom-in">
         <div className={styles.box}>
           <div className={styles.img}>

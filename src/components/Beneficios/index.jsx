@@ -2,12 +2,12 @@ import styles from "./beneficios.module.css";
 
 import beneficios from "../../assets/imgs/beneficios-eventos/beneficios-do-evento.jpg";
 
+import Title from "../Title";
+
 export default function Beneficios() {
   return (
     <div className={styles.container}>
-      <div className={styles.title} data-aos="zoom-in">
-        <h2>BENEFÍCIOS DO EVENTO</h2>
-      </div>
+      <Title text="BENEFÍCIOS DO EVENTO" />
 
       <div className={styles.box} data-aos="zoom-in">
         <div className={styles.img}>

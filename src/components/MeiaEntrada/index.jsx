@@ -1,13 +1,12 @@
 import styles from "./meiaEntrada.module.css";
 
 import meiaEntrada from "../../assets/imgs/meia-entrada/meia-entrada.jpg";
+import Title from "../Title";
 
 export default function MeiaEntrada() {
   return (
     <div className={styles.container}>
-      <div className={styles.title} data-aos="zoom-in">
-        <h2>MEIA-ENTRADA CONECT AUTISMO</h2>
-      </div>
+      <Title text="MEIA-ENTRADA CONECT AUTISMO" />
 
       <div className={styles.box} data-aos="zoom-in">
         <div className={styles.img}>

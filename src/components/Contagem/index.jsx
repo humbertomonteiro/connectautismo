@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
 import styles from "./contagem.module.css";
+import Title from "../Title";
 
 const dateEvent = "24 aug 2024";
 
@@ -23,9 +24,7 @@ export default function Contagem() {
 
   return (
     <div className={styles.container}>
-      <div className={styles.title} data-aos="fade-down">
-        <h2>CONTAGEM REGRESSIVA CONECT AUTISMO</h2>
-      </div>
+      <Title text={"CONTAGEM REGRESSIVA CONECT AUTISMO"} />
       <div className={styles.timer} data-aos="fade-down">
         <div className={styles.item}>
           <h3>{finalWeeks < 10 ? `0${finalWeeks}` : finalWeeks}</h3>

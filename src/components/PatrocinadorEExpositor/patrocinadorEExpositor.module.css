@@ -10,17 +10,6 @@
   max-width: 90%;
 }
 
-.title {
-  padding: 4rem 0 2rem 0;
-  display: flex;
-  justify-content: center;
-}
-
-.title h2 {
-  font-size: 1.8rem;
-  text-align: center;
-}
-
 .content {
   display: flex;
   flex-direction: column;

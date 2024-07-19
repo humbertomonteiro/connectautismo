@@ -1,15 +1,3 @@
-.title {
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin: 4rem 0;
-}
-
-.title h2 {
-  font-size: 2rem;
-}
-
 .containerBoxes {
   display: flex;
   flex-direction: column;
@@ -97,14 +85,6 @@
 }
 
 @media (max-width: 450px) {
-  .title {
-    margin: 2rem 0;
-  }
-
-  .title h2 {
-    font-size: 1.5rem;
-  }
-
   .box img,
   .firstBox img {
     width: 30%;

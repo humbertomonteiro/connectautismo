@@ -1,3 +1,4 @@
+import Title from "../Title";
 import styles from "./patrocinadorEExpositor.module.css";
 
 import { FaArrowRight } from "react-icons/fa";
@@ -6,9 +7,7 @@ export default function PatrocinadorEExpositor() {
   return (
     <div className={styles.container}>
       <div className={styles.containerContent}>
-        <div className={styles.title} data-aos="zoom-in">
-          <h2>Patrocinador & Expositor</h2>
-        </div>
+        <Title text={"Patrocinador & Expositor"} />
         <div className={styles.content} data-aos="zoom-in">
           <p>
             Garantindo visibilidade e posicionamento. Ideal para quem quer se

@@ -9,12 +9,12 @@ import visibilidade from "../../assets/imgs/oportunidades/visibilidade.png";
 import atualizacao from "../../assets/imgs/oportunidades/atualizacao.png";
 import acoesSociais from "../../assets/imgs/oportunidades/acoes-sociais.png";
 
+import Title from "../Title";
+
 export default function oportunidades() {
   return (
     <div>
-      <div className={styles.title} data-aos="zoom-in">
-        <h2>OPORTUNIDADES</h2>
-      </div>
+      <Title text={"OPORTUNIDADES"} />
       <div
         className={styles.containerBoxes}
         data-aos="zoom-in"

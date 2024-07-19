@@ -10,11 +10,14 @@ import Social from "../../components/Social";
 import Beneficios from "../../components/Beneficios";
 import MeiaEntrada from "../../components/MeiaEntrada";
 import SobreNos from "../../components/SobreNos";
+import Palestrantes from "../../components/Palestrantes";
 
 import Cronograma from "../../components/Cronograma";
 import EspacoConect from "../../components/EspacoConect";
 import Patrocinador from "../../components/Patrocinador";
 import { arrayPatrocinadorDiamante } from "../../data/patrocinadorDiamante";
+import { arrayPatrocinadorOuro } from "../../data/patrocinadorOuro";
+import { arrayPatrocinadorPrata } from "../../data/patrocinadorPrata";
 
 import { arrayApoio } from "../../data/apoio";
 import { FaArrowDown } from "react-icons/fa";
@@ -62,20 +65,15 @@ export default function Home() {
       <Beneficios />
       <MeiaEntrada />
       <SobreNos />
+      <Palestrantes />
       <Cronograma />
       <EspacoConect />
       <Patrocinador
         title="PATROCINADOR DIAMANTE"
         array={arrayPatrocinadorDiamante}
       />
-      <Patrocinador
-        title="PATROCINADOR OURO"
-        array={arrayPatrocinadorDiamante}
-      />
-      <Patrocinador
-        title="PATROCINADOR PRATA"
-        array={arrayPatrocinadorDiamante}
-      />
+      <Patrocinador title="PATROCINADOR OURO" array={arrayPatrocinadorOuro} />
+      <Patrocinador title="PATROCINADOR PRATA" array={arrayPatrocinadorPrata} />
       <Patrocinador title="APOIO" array={arrayApoio} />
       <PatrocinadorEExpositor />
       <Local />

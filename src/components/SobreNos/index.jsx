@@ -3,13 +3,12 @@ import styles from "./sobreNos.module.css";
 import sobreNos from "../../assets/imgs/sobre-nos/sobre-nos.jpg";
 
 import { FaInstagram } from "react-icons/fa";
+import Title from "../Title";
 
 export default function SobreNos() {
   return (
     <div className={styles.container}>
-      <div className={styles.title} data-aos="zoom-in">
-        <h2>SOBRE NÓS</h2>
-      </div>
+      <Title text="SOBRE NÓS" />
 
       <div className={styles.box} data-aos="zoom-in">
         <div className={styles.img}>

@@ -1,11 +1,10 @@
+import Title from "../Title";
 import styles from "./politica.module.css";
 
 export default function Politica() {
   return (
     <div className={styles.container}>
-      <div className={styles.title} data-aos="fade-down">
-        <h2>POLÍTICA CONECT AUTISMO 2024</h2>
-      </div>
+      <Title text={"POLÍTICA CONECT AUTISMO 2024"} />
       <div className={styles.content} data-aos="fade-down">
         <h3>Políticas de Cancelamento, Acesso e Transferência</h3>
         <p>

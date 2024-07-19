@@ -1,0 +1,11 @@
+.container {
+  display: flex;
+  width: 100%;
+  overflow: hidden;
+}
+
+.box {
+  width: 100%;
+  max-width: 250px;
+  height: fit-content;
+}

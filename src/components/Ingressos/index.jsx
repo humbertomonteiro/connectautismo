@@ -4,12 +4,12 @@ import ingressos from "../../assets/imgs/ingressos/opcoes-online-ao-vivo.jpg";
 
 import { IoMdCart } from "react-icons/io";
 
+import Title from "../Title";
+
 export default function Ingressos() {
   return (
     <div id="ingresso" className={styles.container}>
-      <div className={styles.title} data-aos="zoom-in">
-        <h2>INGRESSOS</h2>
-      </div>
+      <Title text={"INGRESSOS"} />
       <div className={styles.img} data-aos="zoom-in">
         <img src={ingressos} alt="Ingressos" />
       </div>

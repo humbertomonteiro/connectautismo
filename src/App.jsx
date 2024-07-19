@@ -5,6 +5,11 @@ import Aos from "aos";
 import "aos/dist/aos.css";
 import { useEffect } from "react";
 
+import "swiper/css";
+import "swiper/css/effect-fade";
+import "swiper/css/navigation";
+import "swiper/css/pagination";
+
 function App() {
   useEffect(() => {
     Aos.init({ duration: 800 });
