@@ -9,7 +9,7 @@ export default function EspacoConect() {
   return (
     <div className={styles.container}>
       <Title text={"ESPAÇO CONECT"} />
-      <div className={styles.boxes}>
+      <div className={styles.boxes} data-aos="zoom-in">
         {arrayEspacoConnect.map((item, index) => (
           <div key={index} className={styles.box}>
             {item.map((e) => (

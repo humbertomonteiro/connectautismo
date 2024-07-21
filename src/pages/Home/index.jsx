@@ -94,7 +94,7 @@ export default function Home() {
         component={<MeiaEntrada />}
       />
       <Section
-        title={"MEIA-ENTRADA CONECT AUTISMO"}
+        title={"SOBRE NÓS"}
         styleImg={"imgSection"}
         img={imgSobreNos}
         descriptionImg={"Aline Sales"}
