@@ -10,7 +10,7 @@ export default function Palestrantes() {
       <Title text={"+ DE 40 PALESTRANTES"} />
       <div className={styles.boxes}>
         {arrayPalestrantes.map((item, index) => (
-          <div key={index} className={styles.box}>
+          <div key={index} className={styles.box} data-aos="zoom-in">
             <BoxSlider array={item} />
           </div>
         ))}
