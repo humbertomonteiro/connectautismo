@@ -7,9 +7,20 @@ import { IoMdCart } from "react-icons/io";
 import Oportunidades from "../../components/Oportunidades";
 import Ingressos from "../../components/Ingressos";
 import Social from "../../components/Social";
-import Beneficios from "../../components/Beneficios";
-import MeiaEntrada from "../../components/MeiaEntrada";
-import SobreNos from "../../components/SobreNos";
+
+import Section from "../../components/Section";
+//beneficios
+import imgBeneficios from "../../assets/imgs/beneficios-eventos/beneficios-do-evento.jpg";
+import Beneficios from "../../contentSections/Beneficios";
+
+//meia entrada
+import imgMeiaEntrada from "../../assets/imgs/meia-entrada/meia-entrada.jpg";
+import MeiaEntrada from "../../contentSections/MeiaEntrada";
+
+//sobre nos
+import imgSobreNos from "../../assets/imgs/sobre-nos/sobre-nos.jpg";
+import SobreNos from "../../contentSections/SobreNos";
+
 import Palestrantes from "../../components/Palestrantes";
 
 import Cronograma from "../../components/Cronograma";
@@ -25,7 +36,11 @@ import { FaArrowDown } from "react-icons/fa";
 import PatrocinadorEExpositor from "../../components/PatrocinadorEExpositor";
 import Local from "../../components/Local";
 import Contagem from "../../components/Contagem";
-import Versa from "../../components/Versa";
+
+//versa
+import imgVersa from "../../assets/imgs/logo/logoVersa.png";
+import Versa from "../../contentSections/Versa";
+
 import RedesSociais from "../../components/RedesSociais";
 import Politica from "../../components/Politica";
 import Footer from "../../components/Footer";
@@ -62,9 +77,31 @@ export default function Home() {
       <Oportunidades />
       <Ingressos />
       <Social />
-      <Beneficios />
-      <MeiaEntrada />
-      <SobreNos />
+      <Section
+        title={"BENEFÍCIOS DO EVENTO"}
+        styleImg={"imgSection"}
+        img={imgBeneficios}
+        descriptionImg={"Palestra"}
+        styleComponent={"listSection"}
+        component={<Beneficios />}
+      />
+      <Section
+        title={"MEIA-ENTRADA CONECT AUTISMO"}
+        styleImg={"imgSection"}
+        img={imgMeiaEntrada}
+        descriptionImg={"Inclusão"}
+        styleComponent={"list2Section"}
+        component={<MeiaEntrada />}
+      />
+      <Section
+        title={"MEIA-ENTRADA CONECT AUTISMO"}
+        styleImg={"imgSection"}
+        img={imgSobreNos}
+        descriptionImg={"Aline Sales"}
+        styleComponent={"textSection"}
+        component={<SobreNos />}
+      />
+      {/* <SobreNos /> */}
       <Palestrantes />
       <Cronograma />
       <EspacoConect />
@@ -78,7 +115,13 @@ export default function Home() {
       <PatrocinadorEExpositor />
       <Local />
       <Contagem />
-      <Versa />
+      <Section
+        styleImg={"imgSectionNoBorder"}
+        img={imgVersa}
+        descriptionImg={"Logo Versa"}
+        styleComponent={"textSection"}
+        component={<Versa />}
+      />
       <RedesSociais />
       <Politica />
       <Footer />
